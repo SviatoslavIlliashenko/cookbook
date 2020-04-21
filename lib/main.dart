@@ -8,6 +8,7 @@ enum AppTheme {
   BlueLight,
   BlueDark,
 }
+
 m
 final appThemeData = {
   AppTheme.GreenLight: ThemeData(
