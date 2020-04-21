@@ -8,8 +8,7 @@ enum AppTheme {
   BlueLight,
   BlueDark,
 }
-4
-333
+6
 final appThemeData = {
   AppTheme.GreenLight: ThemeData(
     brightness: Brightness.light,
