@@ -2,12 +2,7 @@ import 'package:equatable/equatable.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter_bloc/flutter_bloc.dart';
 
-enum AppTheme {
-  GreenLight,
-  GreenDark,
-  BlueLight,
-  BlueDark,
-}
+
 
 final appThemeData = {
   AppTheme.GreenLight: ThemeData(
@@ -53,9 +48,6 @@ class ThemeState extends Equatable {
   }) : super([themeData]);
 }
 
-
-
-1
 
   @override
   Stream<ThemeState> mapEventToState(
