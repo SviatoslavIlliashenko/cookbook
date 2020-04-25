@@ -8,7 +8,7 @@ enum AppTheme {
   BlueLight,
   BlueDark,
 }
-
+8
 final appThemeData = {
   AppTheme.GreenLight: ThemeData(
     brightness: Brightness.light,
@@ -55,11 +55,7 @@ class ThemeState extends Equatable {
 
 
 
-class ThemeBloc extends Bloc<ThemeEvent, ThemeState> {
-  @override
-  ThemeState get initialState =>
-      // Everything is accessible from the appThemeData Map.
-  ThemeState(themeData: appThemeData[AppTheme.GreenLight]);
+1
 
   @override
   Stream<ThemeState> mapEventToState(
